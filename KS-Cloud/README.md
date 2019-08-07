@@ -1,7 +1,5 @@
 # Cloud
 
-## [Cloud Native](cloud-native/README.md)
-
 ## Cloud Service
 * SaaS (Software as a Service 软件即服务)
 * PaaS (Platform as a Service 平台即服务)
