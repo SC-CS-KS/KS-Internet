@@ -1,5 +1,5 @@
-# Internet tracffic
-## Evlution
+# Internet traffic
+## Evolution
 ### 传统的 PC 时代
 ```md
 在传统的 PC 时代，以百度和 google为首的搜索引擎掌握着核心的流量分发功能。
