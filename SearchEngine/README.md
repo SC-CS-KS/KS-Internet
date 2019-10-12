@@ -11,8 +11,6 @@
 * [Solr](y_solr/README.md)
 * * [Solr vs. Elasticsearch](http://solr-vs-elasticsearch.com/)
 
-
-
 ## 阿里
 * [AI·OS推荐与搜索技术](https://yq.aliyun.com/teams/23?spm=a2c4e.11153959.0.0.450844ef8tCH8i)
 * [阿里- OpenSearch](https://yq.aliyun.com/articles/67156)
