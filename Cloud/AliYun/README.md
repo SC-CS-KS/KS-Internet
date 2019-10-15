@@ -43,7 +43,8 @@ running
 8080/tcp 80/tcp
 ```
 ```bash
-# firewall-cmd --remove-port=8056/tcp
+# firewall-cmd --remove-port=8056/tcp //删除开放的端口
+# firewall-cmd --remove-forward-port port=80:proto=tcp:toport=8099:toaddr= //删除转发规则
 ```
 
 ### Q & A
@@ -58,4 +59,13 @@ firewall
 ```md
 可以部署一层 Nginx 作为接入层，绑定 80 端口，使用 root 账户启动。
 再 通过 Nginx 的反向代理功能进行转发。
+```
+```bash
+yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel
+
+wget http://nginx.org/download/nginx-1.16.1.tar.gz
+tar -zxvf nginx-1.16.1.tar.gz
+
+cd nginx-1.16.1 && ./configure --prefix=/home/xxx/nginx
+make install
 ```
