@@ -1,4 +1,4 @@
 # KS-Internet
-Internet industry
+Internet Industry
 
 
